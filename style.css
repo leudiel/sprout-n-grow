@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+nav a {
+    transition: .3s ease all;
+    color: #8fbd4f;
+    font-family: 'Gasoek One', sans-serif;
+    text-decoration: none;
+    font-size: 25pt;
+    line-height: 0%;
+}
+p {
+    color:white;
+}
+
+#banner {
+    background-image: url("./.images/bannerimg.jpg");
+    padding: 15%;
+    align-items: center;
+}
+
+nav a:hover {
+    transition: .3s ease all;
+    font-size: 30pt;
+    color: #054d3b;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    background-color: #dfe2d2;
+    align-items: center;
+    padding: 1.25%;
+    padding-right: 5%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content:space-between;
+    padding: 3%;
+    background-color: #dfe2d2;
+    font-size: 12pt ;
+    margin-top: 80px;
+    text-decoration: none;
+    color:white;
+}
